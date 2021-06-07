@@ -24,6 +24,13 @@ class PlaySoundsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func playSoundForButton(_ sender: UIButton) {
+        print("play sound button pressed")
+    }
+    
+    @IBAction func stopButtonPressed(_ sender: AnyObject) {
+        print("stop audio button pressed")
+    }
 
     
     

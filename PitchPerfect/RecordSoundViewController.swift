@@ -43,7 +43,7 @@ class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate {
         configureUI(false)
         audioRecorder.stop()
         let audioSession = AVAudioSession.sharedInstance()
-        try! audioSession.setActive(false)
+        try! audioSession.setActive(false) 
     }
     
     func configureUI(_ isRecording: Bool) {
